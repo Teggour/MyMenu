@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{%block content%}
+{% load i18n %}
+	<h1> Заказы: </h1>
+
+	{%for order  in orders%}
+		<p><h2><a href="{{order.get_absolute_url}}">{{order.dish.dish_name}}
+
+		</a></h2></p>
+	{%endfor%}
+
+{%endblock%}

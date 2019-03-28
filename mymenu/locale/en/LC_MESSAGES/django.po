@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 17:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\menu\models.py:8 .\menu\models.py:28
+msgid "Название ингридиента"
+msgstr "Ingredient name"
+
+#: .\menu\models.py:9 .\menu\models.py:29
+msgid "Количество порций"
+msgstr "Number of servings"
+
+#: .\menu\models.py:16 .\menu\templates\add_dish.html:6
+msgid "Название блюда"
+msgstr "Dish name"
+
+#: .\menu\templates\add_dish.html:8
+msgid "Ингредиенты:"
+msgstr "Ingredients"
+
+#: .\menu\templates\add_dish.html:10 .\menu\templates\home.html:32
+msgid "Добавить блюдо"
+msgstr "Add dish"
+
+#: .\menu\templates\add_order.html:15
+msgid "Сохранить заказ"
+msgstr "Save order"
+
+#: .\menu\templates\home.html:18
+msgid "Change"
+msgstr "Change"
+
+#: .\menu\templates\home.html:23
+msgid "Заказы"
+msgstr "Orders"
+
+#: .\menu\templates\ingredients_in_dish.html:7
+msgid "Автор блюда: "
+msgstr "Dish author"
+
+#: .\menu\templates\ingredients_in_dish.html:8
+msgid "Ингридиенты: "
+msgstr "Ingredients: "
+
+#: .\menu\templates\ingredients_in_dish.html:18
+msgid "Оформить заказ"
+msgstr "Make order"
+
+#: .\menu\templates\ingredients_in_order.html:4
+msgid "Блюдо: "
+msgstr "Dish: "
+
+#: .\menu\templates\ingredients_in_order.html:5
+msgid "Заказчик: "
+msgstr "Client: "
+
+#: .\menu\templates\ingredients_in_order.html:7
+msgid "Ингрединты:"
+msgstr "Ingredients: "
+
+#: .\menu\templates\ingredients_in_order.html:9
+msgid "порции"
+msgstr "portions"
+
+#: .\menu\templates\ingredients_in_order.html:13
+msgid "Добавить заказ"
+msgstr "Add order"
+
+#: .\mymenu\settings.py:119
+msgid "Русский"
+msgstr "Russian"
+
+#: .\mymenu\settings.py:120
+msgid "English"
+msgstr "English"

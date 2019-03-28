@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{%block content%}
+{% load i18n %}
+		<h2>{% trans "Блюдо: " %} {{order.dish.dish_name}}</h2>
+		<h2>{% trans "Заказчик: " %} {{order.author}}</h2>
+		
+		<h3>{% trans "Ингрединты:" %}</h3>
+		{%for ingredient in ingredients%}
+			<p>{{ingredient.name}}, {{ingredient.count}} {% trans "порции" %} </p>
+		{%endfor%}
+		<br><br>
+
+		<a href="{% url 'home' %}">{% trans "Добавить заказ" %}</a>
+
+{%endblock%}

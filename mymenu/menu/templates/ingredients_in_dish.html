@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{%block content%}
+{% load i18n %}
+<font color="red">{{error}}</font>
+
+        <h2>{{dish.dish_name}}</h2>
+		<h3>{% trans "Автор блюда: "%} {{dish.author}}</h3>
+		<h3>{% trans "Ингридиенты: " %}</h3>
+
+    {%for ingredient in all_ingredients%}
+
+        <p>{{ingredient.ingredient_name}}</p>
+
+    {%endfor%}
+
+    <br><br>
+
+	<p><a href="{% url 'add_order' dish.id %}">{% trans "Оформить заказ" %}</a></p>
+
+
+{%endblock%}
